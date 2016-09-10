@@ -42,11 +42,18 @@ Priorities: High (must have) - `* * *`, Medium (nice to have)  - `* *`,  Low (un
 Priority | As a ... | I want to ... | So that I can...
 -------- | :-------- | :--------- | :-----------
 `* * *` | new user | see usage instructions | refer to instructions when I forget how to use the App
+`* * *` | new user | import contacts from other file formats (like .csv) | easily copy my contacts from another program
 `* * *` | user | add a new person | 
 `* * *` | user | delete a person | can remove entries that I no longer need
 `* * *` | user | find a person by name | locate details of persons without having to go through the entire list
+`* * *` | user | add tags to person | categories each contact in terms of my relationship with the person
+`* * *` | user | remove tags from person | remove outdated relationship descriptors with the person
+`* *` | user | list persons with a specific tag | locate persons within a certain group without having to go through the entire list
 `* *` | user | hide [private contact details](#private-contact-detail) by default | to minimize chance of someone else seeing them by accident
+`* *` | user holding supervising role | email persons with a specific tag | easily communicate with team members without leaving out anyone
+`*` | user with many persons in the address book | delete all entries | start anew if all my contacts are stale
 `*` | user with many persons in the address book | sort persons by name | locate a person easily
+`*` | migrating user | export contacts to other file formats (like .csv) | easily move my contacts into another program
 
 
 ## Appendix B : Use Cases
