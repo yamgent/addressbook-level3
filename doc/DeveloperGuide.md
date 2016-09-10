@@ -129,7 +129,7 @@ Use case ends.
 4. Should favor DOS style commands over Unix-style commands.
 5. Should work on both 32-bits and 64-bits system.
 6. Should boot up and be ready for user input within 2 seconds.
-7. Should comply with [IAAB-1337](#IAAB-1337) standards set by [IAAB](#IAAB).
+7. Should comply with [IAAB-1337](#iaab-1337) standards set by [IAAB](#iaab).
 
 ## Appendix D : Glossary
 
