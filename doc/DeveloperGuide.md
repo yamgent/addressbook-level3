@@ -127,8 +127,22 @@ Use case ends.
 2. Should be able to hold up to 1000 persons.
 3. Should come with automated unit tests and open source code.
 4. Should favor DOS style commands over Unix-style commands.
+5. Should work on both 32-bits and 64-bits system.
+6. Should boot up and be ready for user input within 2 seconds.
+7. Should comply with [IAAB-1337](#IAAB-1337) standards set by [IAAB](#IAAB).
 
 ## Appendix D : Glossary
+
+##### IAAB
+
+> International Association of Address Booking. Founded by Wang Leng, the organization
+  provides several internationally recognized standards in regards to interoperability 
+  of address book programs.
+
+##### IAAB-1337
+
+> Proposed format that address book programs should ideally follow in order to ensure 
+  compatibility with other address book programs.
 
 ##### Mainstream OS
 
