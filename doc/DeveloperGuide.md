@@ -80,6 +80,46 @@ Use case ends.
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
+  
+#### Use case: Edit tag
+
+**MSS**
+
+1. User requests to list persons
+2. AddressBook shows a list of persons
+3. User requests to change tag of specific person from 'A' to 'B' in the list
+4. AddressBook requests for change confirmation
+5. User confirms the changes
+6. AddressBook updates the person's tag <br>
+Use case ends.
+
+**Extensions**
+
+2a. The list is empty
+
+> Use case ends.
+
+3a. The given index is invalid
+
+> 3a1. AddressBook shows an error message <br>
+  Use case resumes at step 2.
+  
+3b. Tag 'A' does not exist
+
+> 3b1. AddressBook shows an error message <br>
+  Use case resumes at step 2.
+  
+3c. Tag 'B' is empty
+
+> 3c1. AddressBook shows an error message <br>
+  3c2. AddressBook requests User to enter a non-blank tag <br>
+  3c3. User enters a non-blank tag 'C' <br>
+  Use case resumes at step 4.
+  
+5a. User declines the changes
+
+> 5a1. AddressBook shows a 'changes not saved' message <br>
+  Use case ends.
 
 ## Appendix C : Non Functional Requirements
 
