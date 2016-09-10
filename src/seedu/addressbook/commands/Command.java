@@ -38,8 +38,9 @@ public abstract class Command {
 
     /**
      * Executes the command and returns the result.
+     * @throws  
      */
-    public abstract CommandResult execute();
+    public abstract CommandResult execute() throws Exception;
     
     /**
      * @return whether the command actually changes
