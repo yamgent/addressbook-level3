@@ -37,4 +37,13 @@ public class ViewAllCommand extends Command {
             return new CommandResult(Messages.MESSAGE_INVALID_PERSON_DISPLAYED_INDEX);
         }
     }
+    
+    /**
+     * @return whether the command actually changes
+     * the address book data.
+     */
+    @Override
+    public boolean isMutating() {
+        return false;
+    }
 }

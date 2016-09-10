@@ -67,4 +67,12 @@ public class AddCommand extends Command {
         }
     }
 
+    /**
+     * @return whether the command actually changes
+     * the address book data.
+     */
+    @Override
+    public boolean isMutating() {
+        return true;
+    }
 }
