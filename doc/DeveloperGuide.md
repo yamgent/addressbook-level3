@@ -95,7 +95,7 @@ Use case ends.
 
 **Extensions**
 
-2a. The list is empty
+2a. There are no persons in the list
 
 > Use case ends.
 
