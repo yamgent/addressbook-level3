@@ -83,6 +83,12 @@ Use case ends.
   
 #### Use case: Edit tag
 
+*Pre-conditions:* 
+* User have adminstrative rights to change tags.
+
+*Guarantees:*
+* The change made will be logged by the application (see last week tutorial).
+
 **MSS**
 
 1. User requests to list persons
