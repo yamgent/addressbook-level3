@@ -48,6 +48,12 @@ public class ParserTest {
     }
     
     @Test
+    public void aboutCommand_parsedCorrectly() {
+        final String input = "about";
+        parseAndAssertCommandType(input, AboutCommand.class);
+    }
+    
+    @Test
     public void clearCommand_parsedCorrectly() {
         final String input = "clear";
         parseAndAssertCommandType(input, ClearCommand.class);
