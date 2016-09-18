@@ -15,6 +15,11 @@ public class Main extends Application implements Stoppable{
 
     /** Version info of the program. */
     public static final String VERSION = "AddessBook Level 3 - Version 1.0";
+    
+    /** Author of the program. */
+    public static final String AUTHOR = "CS2103 Teaching Team";    
+    /** License of the program. */
+    public static final String LICENSE = "MIT Licensed (see LICENSE). All Rights Reserved.";
 
     private Gui gui;
 
